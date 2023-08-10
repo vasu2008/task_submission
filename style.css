@@ -1,0 +1,137 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: content-box;
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+}
+body
+{
+    justify-content: space-between;
+    background-repeat: repeat-x;
+    background-repeat: repeat-y;
+    min-height: 100vh;
+    background: #91451cc6;
+    background-image: url(https://img.freepik.com/free-vector/realistic-technology-particle-background_23-2148409680.jpg?w=1060&t=st=1691672225~exp=1691672825~hmac=7a3edea97a798c05cd07b2e7dd06335adb13686e722c855891931c86b8e8b01f)
+}
+.container
+{
+    margin: 75px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-style: italic;
+    border-top: 15px;
+}
+.list
+{
+    background: #0ba8bcc0;
+    font-style: italic;
+    width: 650px;
+    padding: 10px;
+    border-radius: 16px;
+    box-shadow: 0 0 128px 0 rgba(12, 101, 48, 0.975),0 32px 64px -48px rgba(0,0,0,0.5);
+}
+.wrapper
+{
+    background: #b80f0fd1;
+    text-decoration: underline;
+    text-decoration: wavy;
+    background-image: linear-gradient();
+    background-position: center;
+    box-shadow: sienna;
+    width: 450px;
+    border-radius: 19px;
+    box-shadow: 0 0 128px 0 rgba(9, 6, 17, 0.914),0 32px 64px -48px rgba(0,0,0,0.5);
+
+}
+.form 
+{
+    padding: 25px 30px;
+    text-decoration: wavy;
+}
+.form header{
+    font-size: 25px;
+    text-align: center;
+    font-style: italic;
+    font-weight: 600;
+    text-decoration: underline;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #55292b;
+}
+.form form{
+    margin: 20px 0;
+    text-decoration: dotted;
+}
+
+.form .name-details
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.form .field label{
+    margin-bottom: 10px;
+    
+}
+.form .field
+{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;   
+}
+.form .field input{
+    outline: none;
+    
+}
+.form .input input:focus,
+.form .input input:valid{
+  border-color:rgba(97, 38, 92, 0);
+}
+.form .input input{
+    height: 40px;
+    width: 100%;
+    font-size: 16px;
+    padding: 0 10px;
+    border: 1px solid #0f12bec8;
+    border-radius: 5px;
+
+}
+.form .image input{
+    font-size: 17px;
+}
+.form .button input{
+    margin-top: 13px;
+    height: 45px;
+    border: none;
+    font-size: 17px;
+    font-weight: 400;
+    background:rgb(32, 243, 229);
+    color: #0a0203ad;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+#task-list
+{
+    display: flex;
+    text-decoration: underline;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+th, td{
+    padding: 20px;
+    
+    
+}
+button{
+    background-color: rgb(122, 16, 14);
+    color: rgba(5, 11, 17, 0.568);
+    padding: 5px;
+    font-style: italic;
+    font-weight: bold;
+}
